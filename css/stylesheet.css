@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Orbitron:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fff;
+  font-family: "Orbitron", sans-serif;
+  overflow: hidden;
+}
+
+.brand-logo {
+  height: 8vh;
+  margin: 9vh 6vw;
+}
+.navbar-container{
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+  word-spacing: 40px;
+  padding: 2vw;
+}
+.nav-items {
+  list-style-type: none;
+  padding: 5vh 0;
+  display: flex;
+  margin: 4vh 0;
+  justify-content: center;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+.search-icon {
+  margin: 9vh 14vw;
+  cursor: pointer;
+}
+.nav-button {
+  margin: 8vh 0vw 0 -15vw;
+  cursor: pointer;
+  position: relative;
+  height: 5vh;
+  width: 9vw;
+  background: white;
+  border-radius: 2vh;
+  border: solid 2px black;
+  transition:background-color;
+  transition-duration: 700ms;
+}
+.nav-button:hover {
+  background: #000000;
+  color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  margin: 2px 0 -67vh 13vw;
+  height: 39vh;
+}
+.man {
+  height: 62vh;
+  margin-left: -27vw;
+}
+
+#globe2 {
+  height: 8vh;
+  margin: -10vh 0 0 18vw;
+  /* display: block; */
+}
+#star2 {
+  height: 8vh;
+  margin-left: 36vw;
+}
+
+h1.hero-heading {
+  margin: 10vh 0 7vh -50vw;
+  font-size: 8vh;
+  width: 70vw;
+}
+.hero-description {
+  margin-left: -46vw;
+  color: rgb(124, 123, 123);
+  font-size: 2vh;
+  width: 45vw;
+}
+
+.button-email {
+  font-family: "Orbitron", sans-serif;
+  margin: 10vh 0 0 -38vw;
+  padding: 0 1vw;
+  border: solid 1px black;
+  background: #fff;
+  border-radius: 0.5vw;
+  color: rgb(124, 123, 123);
+  cursor: pointer;
+  transition: all;
+  transition-duration: 700ms;
+}
+
+.button-email:hover {
+  background: #000000;
+  color: #fff;
+}
+
+.button-join {
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  padding: 0 1vw;
+  border: solid 1px black;
+  background: #fff;
+  border-radius: 0.5vw;
+  color: rgb(124, 123, 123);
+  transition: all;
+  transition-duration: 700ms;
+}
+
+.button-join:hover {
+  background: #000000;
+  color: #fff;
+}
+
+.contact-heading {
+  margin: 8vh 0vw 0 -30vw;
+  font-size: 2.5vh;
+  color: rgb(124, 123, 123);
+}
+
+.icons {
+  margin: 2vh 0 0 -33vw;
+}
+.icon {
+  height: 6vh;
+  cursor: pointer;
+}

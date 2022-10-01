@@ -1,0 +1,36 @@
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: #fff;
+  }
+  .brand-logo {
+    margin: 3vh 30vw;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    margin: -3vh 0;
+    align-content: center;
+  }
+  .search-icon {
+    margin: 19px 0 -4vh 26vw;
+  }
+  .nav-button {
+    margin: 0vh 0px 0vh 36vw;
+    width: 30vw;
+    max-width: 13vh;
+  }
+  .square {
+    margin: 0px 0 -43vh 33vw;
+    height: 19vh;
+  }
+  .man {
+    height: 35vh;
+    margin: 7vh 0 0vh -66vw;
+  }
+}
